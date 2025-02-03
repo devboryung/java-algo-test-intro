@@ -59,3 +59,28 @@ public class Day1_CaseChange {
 - **사용한 API 정리**
     - String.valueOf();
       - 해당 메서드는 특정 타입의 값 문자열로 바꿔주는 자바의 메서드입니다.
+
+### 수업에서 배운 것
+- **코드**
+```java
+public String Solution(String str) {
+        String answer = "";
+        for (char x : str.toCharArray()) {
+            if (Character.isLowerCase(x)) {
+                answer += Character.toUpperCase(x);
+            } else {
+                answer += Character.toLowerCase(x);
+            }
+        }
+        return answer;
+    }
+```
+- **정리**
+    - Character.isLowerCase();
+    - Character.isUpperCase();
+        - Character클래스에는 자동으로 대문자, 소문자 구분을 해주는 메서드가 있습니다.
+        - 코드가 훨씬 깔끔합니다.
+    - 향상된 for문 사용
+      - 변환된 문자를 동일한 자리에 넣기 위해 일반 for문을 사용해 i값을 배열 인덱스로 사용했지만, 강의 풀이에서는 String에 +=로 변환된 문자열을 누적해서 더해주는 방식으로 사용합니다.
+      - 향상된 for문을 이용해서 코드가 훨씬 깔끔해집니다.
+      - **참고** for 루프문 안에서 문자열을 더하는 경우 최적화가 이루어지지 않기 때문에 StringBuilder를 사용하는 것이 좋습니다.
