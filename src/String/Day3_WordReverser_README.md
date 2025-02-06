@@ -17,6 +17,7 @@
     - 뒤집어진 단어를 순서대로 반환받아 출력합니다.
     - 단어 뒤집기는 StringBuilder의 reverse() 메서드를 이용합니다.
       - 정해진 위치의 문자열을 뒤집을 때는 문자열을 문자 배열로 쪼개 문자의 위치를 바꾸면 되지만, 해당 문제는 문자를 통으로 뒤집는 것이기 때문에 StringBuilder가 제공하는 reverse 메서드를 사용하는 것이 좋습니다.
+      - 또한 String은 불변 객체이기 때문에 값이 변경될 때마다 새로운 String 객체를 생성하며 시스템 자원을 많이 소모합니다. 문자열이 자주 변경될 때는 가변 String인 StringBuilder를 사용하는 것이 좋습니다.
     - 뒤집어진 문자는 String.valueOf()를 이용해 String 타입으로 변환합니다.
       - 반환 타입이 ArrayList<String>이기 때문입니다.
       - toString()으로 타입을 변환할 수 있지만, String.valueOf()는 내부적으로 toString()을 호출하기 전에 null 체크를 해주어 값이 null일 경우 null을 반환합니다.  
