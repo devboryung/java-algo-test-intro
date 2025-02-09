@@ -40,8 +40,7 @@ public class Day5_RemoveDupChar {
     public String solution(String str) {
         ArrayList<String> strList = new ArrayList<>();
         for (String s : str.split("")) {
-            if(strList.contains(s)) continue;
-            strList.add(s);
+            if(!strList.contains(s)) strList.add(s);
         }
 
         return String.join("", strList);
@@ -57,3 +56,20 @@ public class Day5_RemoveDupChar {
     - String.join();
       - 파라미터로 전달된 배열이나 컬렉션에 있는 문자열을 구분로 결합해 주는 메서드입니다.
       - 구분자를 ""로 지정하면 구분자 없이 전달된 값이 결합됩니다.
+
+
+
+### 수업에서 배운 것
+- **코드**
+```java
+public String solution(String str) {
+        String answer = "";
+        for (int i = 0; i < str.length(); i++) {
+            if (str.indexOf(str.charAt(i)) == i) answer += str.charAt(i);
+        }
+        return answer;
+    }
+```
+- **배운점**
+  - indexOf()로 해당 문자의 첫 시작 위치가 현재 위치와 같다면 해당 문자는 처음 나온 것이므로 반환될 String에 추가합니다.
+    - 해당 문자의 첫 시작 위치가 1이고, 현재 탐색하는 문자의 위치가 6이라면 6번째 단어는 1번째 단어와 동일하다는 의미입니다.
