@@ -22,4 +22,5 @@
 | 7  | 문자열 | 문제 7: 회문 문자열                | [문제 7: 회문 문자열](./src/String/Day6_Palindrome_README.md)                     |
 | 8  | 문자열 | 문제 8: 회문 문자열(replaceAll 사용) | [문제 8: 회문 문자열(replaceAll 정규식 이용)](./src/String/Day7_Palindrome2_README.md) |
 | 9  | 문자열 | 문제 9: 숫자만 추출                | [문제 9: 숫자만 추출](./src/String/Day8_ExtractNumbers_README.md)                 |
-| 10 | 문자열 | 문제 10: 가장 짧은 문자거리           | [문제 10: 가장 짧은 문자거리](./src/String/Day8_MinCharDistance_README.md)      
+| 10 | 문자열 | 문제 10: 가장 짧은 문자거리           | [문제 10: 가장 짧은 문자거리](./src/String/Day8_MinCharDistance_README.md)
+| 11 | 문자열 | 문제 11: 문자열 압축               | [문제 11: 문자열 압축](./src/String/Day9_StringCompress_README.md)
