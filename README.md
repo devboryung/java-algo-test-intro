@@ -24,3 +24,4 @@
 | 9  | 문자열 | 문제 9: 숫자만 추출                | [문제 9: 숫자만 추출](./src/String/Day8_ExtractNumbers_README.md)                 |
 | 10 | 문자열 | 문제 10: 가장 짧은 문자거리           | [문제 10: 가장 짧은 문자거리](./src/String/Day8_MinCharDistance_README.md)
 | 11 | 문자열 | 문제 11: 문자열 압축               | [문제 11: 문자열 압축](./src/String/Day9_StringCompress_README.md)
+| 12 | 문자열 | 문제 12: 암호                   | [문제 12: 암호](./src/String/Day9_Password_README.md)
