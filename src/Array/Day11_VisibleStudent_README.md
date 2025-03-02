@@ -57,4 +57,5 @@ public class Day11_VisibleStudent {
     return count;
   }
 }
+
 ```
