@@ -28,3 +28,4 @@
 | 13 | 배열  | 문제 1: 큰 수 출력하기              | [문제 1: 큰 수 출력하기](./src/Array/Day10_PrintBigNum_README.md)                  | 
 | 14 | 배열  | 문제 2: 보이는 학생                | [문제 2: 보이는 학생](./src/Array/Day11_VisibleStudent_README.md)                 |
 | 15 | 배열  | 문제 3: 가위 바위 보               | [문제 3: 가위 바위 보](./src/Array/Day11_RPS_README.md)                           |
+| 16 | 배열  | 문제 4: 피보나치 수열               | [문제 4: 피보나치 수열](./src/Array/Day12_FibonacciSequence_README.md)             |
